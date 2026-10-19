@@ -3,9 +3,20 @@
 Public release artifacts for the Toqan OS CLI.
 
 Source code lives in a private repository. This repository only hosts versioned
-binaries and checksums.
+binaries, checksums, and license files. It does not accept contributions.
+
+## License
+
+The binaries are licensed under the terms in [LICENSE](LICENSE).
+
+The binaries contain open-source software. [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES)
+lists that software and reproduces its license texts. Each release also ships
+its own `THIRD_PARTY_LICENSES` asset, which is the record for that version.
 
 ## Install
+
+Each release has four binaries, `SHA256SUMS`, and `THIRD_PARTY_LICENSES`.
+`SHA256SUMS` covers the binaries only.
 
 Pick the asset for your OS and architecture from a
 [release](https://github.com/toqan-ai/toqan-cli/releases), check
