@@ -15,7 +15,7 @@ Pick the asset for your OS and architecture from a
 curl -fsSL -O https://github.com/toqan-ai/toqan-cli/releases/download/v1.2.3/toqan_1.2.3_darwin_arm64
 curl -fsSL -O https://github.com/toqan-ai/toqan-cli/releases/download/v1.2.3/SHA256SUMS
 grep ' toqan_1.2.3_darwin_arm64$' SHA256SUMS | shasum -a 256 -c -
-install -m 755 toqan_1.2.3_darwin_arm64 /usr/local/bin/toqan
+sudo install -m 755 toqan_1.2.3_darwin_arm64 /usr/local/bin/toqan
 toqan version
 ```
 
