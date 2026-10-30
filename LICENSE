@@ -1,0 +1,20 @@
+Toqan CLI Binary License
+
+Copyright (c) 2026 MIH AI BV. All rights reserved
+
+The binary code distributions, executables, and associated documentation files (the "Binaries") contained within this repository are the proprietary and confidential information of MIH AI BV.
+
+1. Grant. The Binaries are licensed, not sold. Subject to the Toqan OS Terms of Service, MIH AI BV ("MIH AI") grants you a limited, non-exclusive, non-transferable, revocable license to download, install, and run the Binaries published in this repository, in object code form only, for the sole purpose of using the Toqan OS service.
+
+2. Restrictions: You must not
+   - modify, reverse engineer, decompile or disassemble the Binaries
+   - redistribute, sell, rent or sublicense the Binaries
+   - remove or change any copyright or license notice attached to the Binaries.
+
+3. Third-party software: The Binaries contain and incorporate open-source software libraries. The file THIRD_PARTY_LICENSES in this repository and in each release lists all such software libraries used together with its licenses and links to the license texts.
+
+4. No warranty. The Binaries are provided "as is", without warranty of any kind, express or implied, including the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+5. Limitation of liability. To the extent permitted by applicable law, MIH AI BV is not liable for any damages that arise from the use of, or the inability to use, the Binaries.
+
+6. Termination. This license ends automatically if you breach it, or if you terminate the Toqan OS Terms of Service which you have entered into with MIH AI BV. Upon termination, you must stop using and delete the Binaries.
