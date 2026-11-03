@@ -17,7 +17,7 @@ which is the record for that version.
 ## Install
 
 Each release has four binaries, `SHA256SUMS`, and `THIRD_PARTY_LICENSES`.
-`SHA256SUMS` covers the binaries only. The binary names have no version.
+`SHA256SUMS` covers the binaries only.
 
 The commands below install the latest
 [release](https://github.com/toqan-ai/toqan-cli/releases) for macOS on Apple
