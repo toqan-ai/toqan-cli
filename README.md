@@ -17,21 +17,25 @@ which is the record for that version.
 ## Install
 
 Each release has four binaries, `SHA256SUMS`, and `THIRD_PARTY_LICENSES`.
-`SHA256SUMS` covers the binaries only.
+`SHA256SUMS` covers the binaries only. The binary names have no version.
 
-Pick the asset for your OS and architecture from a
-[release](https://github.com/toqan-ai/toqan-cli/releases), check
-`SHA256SUMS`, and install the binary on your `PATH`:
+The commands below install the latest
+[release](https://github.com/toqan-ai/toqan-cli/releases) for macOS on Apple
+silicon. They download the binary, check it against `SHA256SUMS`, and install it
+on your `PATH`:
 
 ```sh
-curl -fsSL -O https://github.com/toqan-ai/toqan-cli/releases/download/v1.2.3/toqan_1.2.3_darwin_arm64
-curl -fsSL -O https://github.com/toqan-ai/toqan-cli/releases/download/v1.2.3/SHA256SUMS
-grep ' toqan_1.2.3_darwin_arm64$' SHA256SUMS | shasum -a 256 -c -
-sudo install -m 755 toqan_1.2.3_darwin_arm64 /usr/local/bin/toqan
+curl -fsSL -O https://github.com/toqan-ai/toqan-cli/releases/latest/download/toqan_darwin_arm64
+curl -fsSL -O https://github.com/toqan-ai/toqan-cli/releases/latest/download/SHA256SUMS
+grep ' toqan_darwin_arm64$' SHA256SUMS | shasum -a 256 -c -
+sudo install -m 755 toqan_darwin_arm64 /usr/local/bin/toqan
 toqan version
 ```
 
-On Linux, use `sha256sum -c -` in place of `shasum -a 256 -c -`.
+On Linux, use `sha256sum -c -` in place of `shasum -a 256 -c -`. For another
+platform, replace `darwin_arm64` with `darwin_amd64`, `linux_amd64`, or
+`linux_arm64`.
 
-Replace `v1.2.3` / `1.2.3` and the `darwin_arm64` suffix with the release and
-platform you need.
+To install a specific version, replace `latest/download` with
+`download/vX.Y.Z`. Releases up to and including v0.6.0 use the file name
+`toqan_<version>_<os>_<arch>`, for example `toqan_0.6.0_darwin_arm64`.
